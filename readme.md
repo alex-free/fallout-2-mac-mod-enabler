@@ -4,7 +4,7 @@ _By Alex Free_
 
 Enables mod support for Fallout 2's native PowerPC Mac OS X port, released in 2002.
 
-Initially Fallout 2 was going to release simultaniously on Mac and PC, like Fallout 2 did. But due to poor sales, this would be cancelled, then uncancelled and released in [2002](https://web.archive.org/web/20050220065242/http://www.macplay.com/press/pr-fallout2-ships.php). This port hasn't seen alot of attention in the modding community, so I decided to make an easy to use mod-enabler.
+Initially Fallout 2 was going to release simultaniously on Mac and PC, like Fallout 1 did. But due to poor sales, this would be cancelled, then uncancelled and released in [2002](https://web.archive.org/web/20050220065242/http://www.macplay.com/press/pr-fallout2-ships.php). This port hasn't seen alot of attention in the modding community, so I decided to make an easy to use mod-enabler.
 
 | [Github](https://github.com/alex-free/fallout-2-mac-mod-enabler) | [Website](https://alex-free.github.io/fallout-2-mac-mod-enabler) |
 
@@ -14,7 +14,7 @@ Initially Fallout 2 was going to release simultaniously on Mac and PC, like Fall
 
 * The Fallout 2 PowerPC Mac version's latest patch is v1.02a. This mod enabler will work with or without this patch.
 
-* Fallout 2 PowerPC Mac version has different GVARs, script files, and save files made on the PC version do not work on the Mac version. Strictly asset releated mods that change art or things like that should work from PC mods. Things that modify scripts may not work without having to be recreated using the Mac related files as a base. In [my mod](https://github.com/alex-free/miria-must-live) I have a Mac version and a PC version for example, because I modify script files.
+* Fallout 2 PowerPC Mac version has different GVARs, script files, and save files made on the PC version do not work on the Mac version. Strictly asset releated mods that change art or things like that should work from PC mods. Things that modify scripts may not work without having to be recreated using the Mac related files as a base. In [my mod](https://alex-free.github.io/miria-must-live-fo2-mod/) I have a Mac version and a PC version for example, because I modify script files.
 
 * There is no support for fancy things like custom .dat files. This is old-school 'extracted dat file directory structure', exactly like how you mod Fallout 2 v1.0 or v1.02d on PC without SFall. To make this convient, the mod enabler creates a symlink to the folder where your mods need to be installed. This symlink is at `/Applications/Fallout 2 Mods`, and points to `~/Library/Application Support/Fallout2/Data`.
 
